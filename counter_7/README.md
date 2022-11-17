@@ -53,6 +53,29 @@ Gunakan const ketika yakin bahwa suatu nilai tidak akan berubah saat menjalankan
 3. Menambahkan text genap dan ganjil dan mengubah warnanya
 4. Menambahkan floatingActionButton
   
-  
-  
+# README.md Tugas 8 PBP
+
+## Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement
+Navigator.pushReplacement : Mengganti rute navigator saat ini dengan mendorong rute yang diberikan dan kemudian membuang rute sebelumnya setelah rute baru selesai dianimasikan.
+Navigator.push : untuk menavigasi ke halaman yang lebih baru
+
+## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya
+ListTile: Membentuk sebuah list dan terdapat juga widget widget didalamnya
+DropDownButton: memungkinkan pengguna memilih dari sejumlah item
+Card: ruang hambar atau panel dengan sudut bulat dan sedikit elevasi di sisi bawah untuk menampilkan informasi
+Drawer: untuk menyediakan akses ke berbagai tujuan dan fungsi yang disediakan dalam aplikasi Anda
+TextFormField: memungkinkan pengguna mengetik teks ke dalam aplikasi
+DatePicker: untuk memilih tanggal
+TextStyle: untuk styling text
+Container: untuk menampung beberapa komponen
+TextButton: display label
+
+## Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
+onPressed, onChanged, onSaved, onTap
+
+## Jelaskan bagaimana cara kerja Navigator dalam "mengganti" halaman dari aplikasi Flutter
+Navigator pada Flutter menggunakan implementasi stack. Navigator menyediakan metode untuk mengubah tumpukan dengan push to stack atau dengan keluar dari tumpukan. Metode Navigator.push adalah untuk menavigasi ke halaman yang lebih baru dan Navigator.pop untuk kembali dari halaman saat ini.
+
+##  Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+Membuat drawer, kemudian menambahkan tiga tombol navigasi. Membuat file untuk form dan data budget. Pada drawer.dart mengarahkan masing2 file dart ke tombol yang sesuai. Pada form.dart membuat input untuk judul, nominal, date, dan jenis transaksi. Pada data budget.dart membuat card yang berisikan informasi dari form.dart yang telah disimpan. 
   
