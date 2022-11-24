@@ -86,15 +86,15 @@ Membuat drawer, kemudian menambahkan tiga tombol navigasi. Membuat file untuk fo
 Ya, bisa melakukan pengambilan data JSON tanpa membuat model terlebih dahulu hanya saja data yang didapat bisa jadi strukturnya tidak sesuai dengan apa yang diinginkan atau lebih error-prone dan susah untuk di manage. Oleh karena itu, sebaiknya menentukan model terlebih dahulu agar data yang didapat mempunyai struktur yang baik dan mudah untuk digunakan.
  
 ## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
-Scaffold: digunakan untuk mengimplementasikan struktur tata letak visual desain material dasar
-Text: Display string dalam satu baris
-AppBar: menyediakan struktur visual dan elemen interaktif yang akrab bagi pengguna
-Padding: widget yang insets child dengan memberikan padding
-ListView: Display children satu persatu dalam scrolling direction
-Container: digunakan untuk menyimpan satu atau lebih widget dan memposisikannya di layar sesuai kenyamanan kita.
-Column: Display children dalam format vertikal
-Row: Display children dalam format horizontal
-Drawer: Panel Desain Material yang meluncur secara horizontal dari tepi Scaffold  untuk menampilkan tautan navigasi dalam aplikasi.
+<li> Scaffold: digunakan untuk mengimplementasikan struktur tata letak visual desain material dasar
+<li> Text: Display string dalam satu baris
+<li> AppBar: menyediakan struktur visual dan elemen interaktif yang akrab bagi pengguna
+<li> Padding: widget yang insets child dengan memberikan padding
+<li> ListView: Display children satu persatu dalam scrolling direction
+<li> Container: digunakan untuk menyimpan satu atau lebih widget dan memposisikannya di layar sesuai kenyamanan kita.
+<li> Column: Display children dalam format vertikal
+<li> Row: Display children dalam format horizontal
+<li> Drawer: Panel Desain Material yang meluncur secara horizontal dari tepi Scaffold  untuk menampilkan tautan navigasi dalam aplikasi.
 
     
 ## Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
