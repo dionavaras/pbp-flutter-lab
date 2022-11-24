@@ -79,3 +79,31 @@ Navigator pada Flutter menggunakan implementasi stack. Navigator menyediakan met
 ##  Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 Membuat drawer, kemudian menambahkan tiga tombol navigasi. Membuat file untuk form dan data budget. Pada drawer.dart mengarahkan masing2 file dart ke tombol yang sesuai. Pada form.dart membuat input untuk judul, nominal, date, dan jenis transaksi. Pada data budget.dart membuat card yang berisikan informasi dari form.dart yang telah disimpan. 
   
+# README.md Tugas 8 PBP
+    
+## Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+    
+Ya, bisa melakukan pengambilan data JSON tanpa membuat model terlebih dahulu hanya saja data yang didapat bisa jadi strukturnya tidak sesuai dengan apa yang diinginkan atau lebih error-prone dan susah untuk di manage. Oleh karena itu, sebaiknya menentukan model terlebih dahulu agar data yang didapat mempunyai struktur yang baik dan mudah untuk digunakan.
+ 
+## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+Scaffold: digunakan untuk mengimplementasikan struktur tata letak visual desain material dasar
+Text: Display string dalam satu baris
+AppBar: menyediakan struktur visual dan elemen interaktif yang akrab bagi pengguna
+Padding: widget yang insets child dengan memberikan padding
+ListView: Display children satu persatu dalam scrolling direction
+Container: digunakan untuk menyimpan satu atau lebih widget dan memposisikannya di layar sesuai kenyamanan kita.
+Column: Display children dalam format vertikal
+Row: Display children dalam format horizontal
+Drawer: Panel Desain Material yang meluncur secara horizontal dari tepi Scaffold  untuk menampilkan tautan navigasi dalam aplikasi.
+
+    
+## Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+    
+1. Menambahkan depedensi http
+2. Membuat model sesuai json yang akan di get
+3. Melakukan HTTP request dengan method GET
+4. Response didecode menjadi JSON kemudian dikonversi menjadi model yang dibuat
+5. Menampilkan data dengan memanfaatkan FutureBuilder
+    
+## Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+
