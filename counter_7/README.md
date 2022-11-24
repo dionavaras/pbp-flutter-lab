@@ -79,7 +79,7 @@ Navigator pada Flutter menggunakan implementasi stack. Navigator menyediakan met
 ##  Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 Membuat drawer, kemudian menambahkan tiga tombol navigasi. Membuat file untuk form dan data budget. Pada drawer.dart mengarahkan masing2 file dart ke tombol yang sesuai. Pada form.dart membuat input untuk judul, nominal, date, dan jenis transaksi. Pada data budget.dart membuat card yang berisikan informasi dari form.dart yang telah disimpan. 
   
-# README.md Tugas 8 PBP
+# README.md Tugas 9 PBP
     
 ## Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
     
@@ -107,3 +107,8 @@ Drawer: Panel Desain Material yang meluncur secara horizontal dari tepi Scaffold
     
 ## Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
+1. Menambahkan tombol navigasi mywatchlist pada drawer
+2. Membuat model yang sesuai untuk data json mywatchlist pada file mywatchlist.dart
+3. Membuat function fetch_mywatchlist.dart untuk mengambil data json dr herokuapp mywatchlist 
+4. Menampilkan data mywatchlist pada widget My Watch List
+5. Membuat page detail untuk data
